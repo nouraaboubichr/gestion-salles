@@ -145,25 +145,11 @@ UtilisateurService   SalleService
 
 ## Résultat attendu (extrait console)
 
-```
-=== Test CRUD Utilisateur ===
-Création d'utilisateurs...
 
-Lecture de tous les utilisateurs :
-Utilisateur{id=1, nom='Dupont', prenom='Jean', email='jean.dupont@example.com', ...}
-Utilisateur{id=2, nom='Martin', prenom='Sophie', email='sophie.martin@example.com', ...}
-...
-```
+<img width="1270" height="674" alt="1" src="images/Capture d'écran 2026-09-10 040018.png" />
 
-## Problèmes fréquents
+<img width="1270" height="674" alt="1" src="images/Capture d'écran 2026-09-10 040044.png" />
 
-| Erreur | Cause probable | Solution |
-|---|---|---|
-| `HV000183: Unable to initialize 'javax.el.ExpressionFactory'` | Dépendance EL manquante | Vérifier la présence de `org.glassfish:jakarta.el` dans le pom.xml |
-| Erreurs rouges sur les dépendances dans le pom.xml | Maven n'a pas synchronisé | Clic droit sur pom.xml → Maven → Reload project |
-| `Unknown entity` | Entité non déclarée | Vérifier les balises `<class>` dans persistence.xml |
-| `table not found` après plusieurs runs | Base H2 fermée trop tôt | Vérifier `DB_CLOSE_DELAY=-1` dans l'URL JDBC |
+<img width="1270" height="674" alt="1" src="images/Capture d'écran 2026-09-10 040058.png" />
 
-## Auteur
-
-TP réalisé dans le cadre du cours JPA/Hibernate.
+<img width="1270" height="674" alt="1" src="images/Capture d'écran 2026-09-10 050915.png" />
